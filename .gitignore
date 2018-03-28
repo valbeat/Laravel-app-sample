@@ -6,7 +6,6 @@ npm-debug.log
 bootstrap/compiled.php
 app/storage/
 
-# Laravel 5 & Lumen specific
 public/storage
 public/hot
 storage/*.key
@@ -16,5 +15,10 @@ storage/*.key
 Homestead.yaml
 Homestead.json
 
-# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
-.rocketeer/
+bootstrap/cache/
+storage/
+.env.*.php
+.env.php
+.env
+
+git pull --rebase origin
