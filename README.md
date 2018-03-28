@@ -1,1 +1,1 @@
-# Laravel-templete
+# Laravel-template
