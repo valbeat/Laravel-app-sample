@@ -16,3 +16,8 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::resource('users', 'Api\UsersController')
+    ->only(['index', 'show']);
+
+Route::put('users/{user}/report', 'Api\ReportUsersController@update');
