@@ -1,4 +1,4 @@
-laravel-template
+laravel-app-sample
 ===
 
 create model
@@ -24,7 +24,7 @@ php artisan make:factory UserFactory
 php artisan make:seeder UserSeeder
 ```
 
-create controller
+create api controller
 ```bash
 php artisan make:controller Api/UsersController
 ```
