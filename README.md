@@ -33,3 +33,8 @@ create resource class
 ```bash
 php artisan make:resource UserResource
 ```
+
+create request
+```bash
+php artisan make:request UserRequest
+```
